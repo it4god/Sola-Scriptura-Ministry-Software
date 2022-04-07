@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sola_Scriptura_ChurchMembership", "Sola_Scriptura_ChurchMembership.csproj", "{2882F3B3-7828-460F-84B9-C1BEA32F78AA}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ChurchMembership2009", "..\ChurchMembership2009\ChurchMembership2009.vdproj", "{FD264BD2-1AEE-4F1D-8BBB-004CB3433A70}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2882F3B3-7828-460F-84B9-C1BEA32F78AA}.Debug.ActiveCfg = Debug|.NET
+		{2882F3B3-7828-460F-84B9-C1BEA32F78AA}.Debug.Build.0 = Debug|.NET
+		{2882F3B3-7828-460F-84B9-C1BEA32F78AA}.Release.ActiveCfg = Release|.NET
+		{2882F3B3-7828-460F-84B9-C1BEA32F78AA}.Release.Build.0 = Release|.NET
+		{FD264BD2-1AEE-4F1D-8BBB-004CB3433A70}.Debug.ActiveCfg = Debug
+		{FD264BD2-1AEE-4F1D-8BBB-004CB3433A70}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

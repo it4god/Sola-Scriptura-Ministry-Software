@@ -1,0 +1,139 @@
+[Root]
+Most Recent Package=Standard Setup Package 1
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\My Data Program2\Sola Scriptura\Academic2010\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\My Data Program2\Sola Scriptura\Academic2010\MSDXM.OCX=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1|Files Added]
+C:\My Data Program2\Sola Scriptura\Academic2010\About.mp3=
+C:\My Data Program2\Sola Scriptura\Academic2010\admin.mp3=
+C:\My Data Program2\Sola Scriptura\Academic2010\Album.mp3=
+C:\My Data Program2\Sola Scriptura\Academic2010\Member.mp3=
+C:\My Data Program2\Sola Scriptura\Academic2010\search.mp3=
+C:\My Data Program2\Sola Scriptura\Academic2010\winter.mp3=
+C:\My Data Program2\Sola Scriptura\Academic2010\Website.mp3=
+C:\My Data Program2\Sola Scriptura\Academic2010\spring.mp3=
+C:\My Data Program2\Sola Scriptura\Academic2010\AcademicDb.mdb=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\My Data Program2\Sola Scriptura\Academic2010\Academic2010.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+C:\WINDOWS\system32\MSDATGRD.OCX=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\WINDOWS\system32\COMDLG32.OCX=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\MSDXM.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\About.mp3=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\admin.mp3=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\Album.mp3=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\Member.mp3=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\search.mp3=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\winter.mp3=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\Website.mp3=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\spring.mp3=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\AcademicDb.mdb=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\My Data Program2\Sola Scriptura\Academic2010\Academic2010.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\MSDXM.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\About.mp3=$(AppPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\admin.mp3=$(AppPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\Album.mp3=$(AppPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\Member.mp3=$(AppPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\search.mp3=$(AppPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\winter.mp3=$(AppPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\Website.mp3=$(AppPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\spring.mp3=$(AppPath)
+C:\My Data Program2\Sola Scriptura\Academic2010\AcademicDb.mdb=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\My Data Program2\Sola Scriptura\Academic2010\Academic2010.exe=No
+C:\My Data Program2\Sola Scriptura\Academic2010\About.mp3=No
+C:\My Data Program2\Sola Scriptura\Academic2010\admin.mp3=No
+C:\My Data Program2\Sola Scriptura\Academic2010\Album.mp3=No
+C:\My Data Program2\Sola Scriptura\Academic2010\Member.mp3=No
+C:\My Data Program2\Sola Scriptura\Academic2010\search.mp3=No
+C:\My Data Program2\Sola Scriptura\Academic2010\winter.mp3=No
+C:\My Data Program2\Sola Scriptura\Academic2010\Website.mp3=No
+C:\My Data Program2\Sola Scriptura\Academic2010\spring.mp3=No
+C:\My Data Program2\Sola Scriptura\Academic2010\AcademicDb.mdb=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Academic 2010
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Academic 2010
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Academic 2010]
+Icon1=Academic2010.exe
+Title1=Academic 2010
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\My Data Program2\Sola Scriptura\Academic2010\Package
+ProjectFolder=C:\My Data Program2\Sola Scriptura\Academic2010
+ServerSideCab=
+File1=C:\My Data Program2\Sola Scriptura\Academic2010\Package\setup.exe
+File2=C:\My Data Program2\Sola Scriptura\Academic2010\Package\Setup.Lst
+File3=C:\My Data Program2\Sola Scriptura\Academic2010\Package\Academic2010.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

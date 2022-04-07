@@ -1,0 +1,228 @@
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Interop.Shell32.dll
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.csproj.ResolveComReference.cache
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.exe
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\bin\Release\Sola_Scriptura_Library.exe
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\bin\Release\Interop.Shell32.dll
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\ResolveAssemblyReference.cache
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAbout.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAdmin.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAuthor.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAuthorMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAuthorType.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBigMenu.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategoryGroup.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategoryMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategorySubject.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategoryType.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookHistory.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMenu.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsAuthor.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsCopy.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsCover.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsDesc.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsDetail.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsList.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsSubject.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookOutstanding.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookPrint.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookStoreDetail.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookStoreList.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookStoreMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmCrystalReport.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmCurrencyMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmDDCMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmFormParent.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmIncomeHistory.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalArticles.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalDetail.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalList.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalMasterDetail.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLibrarian.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLocation.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLoginClient.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLoginServer.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMDI.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMember.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMemberHistory.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMemberMenu.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmModifyLibrarian.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmModifyMember.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPolicy.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPublisherDetail.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPublisherList.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPublisherMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearch.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchBook.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchBookMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchBookMiniForm.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchJournal.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchJournalList.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchJournalMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchMiniForm.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSetupMenu.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShelfLocationMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShelfMaster.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShowBook.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShowJournal.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmStatistics.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSTTB.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmTransactionBorrow.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmTransactionMenu.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmTransactionReturn.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmValidasiKey.resources
+C:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.csproj.GenerateResource.Cache
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Interop.Shell32.dll
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.csproj.ResolveComReference.cache
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.exe
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\bin\Release\Sola_Scriptura_Library.exe
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\bin\Release\Interop.Shell32.dll
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\ResolveAssemblyReference.cache
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAbout.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAdmin.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAuthor.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAuthorMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAuthorType.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBigMenu.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategoryGroup.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategoryMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategorySubject.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategoryType.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookHistory.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMenu.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsAuthor.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsCopy.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsCover.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsDesc.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsDetail.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsList.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsSubject.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookOutstanding.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookPrint.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookStoreDetail.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookStoreList.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookStoreMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmCrystalReport.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmCurrencyMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmDDCMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmFormParent.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmIncomeHistory.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalArticles.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalDetail.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalList.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalMasterDetail.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLibrarian.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLocation.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLoginClient.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLoginServer.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMDI.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMember.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMemberHistory.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMemberMenu.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmModifyLibrarian.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmModifyMember.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPolicy.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPublisherDetail.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPublisherList.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPublisherMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearch.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchBook.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchBookMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchBookMiniForm.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchJournal.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchJournalList.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchJournalMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchMiniForm.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSetupMenu.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShelfLocationMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShelfMaster.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShowBook.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShowJournal.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmStatistics.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSTTB.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmTransactionBorrow.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmTransactionMenu.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmTransactionReturn.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmValidasiKey.resources
+C:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.csproj.GenerateResource.Cache
+E:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Interop.Shell32.dll
+E:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.csproj.ResolveComReference.cache
+E:\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.exe
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Interop.Shell32.dll
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.csproj.ResolveComReference.cache
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.exe
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\bin\Release\Sola_Scriptura_Library.exe
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\bin\Release\Interop.Shell32.dll
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\ResolveAssemblyReference.cache
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAbout.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAdmin.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAuthor.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAuthorMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmAuthorType.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBigMenu.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategoryGroup.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategoryMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategorySubject.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookCategoryType.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookHistory.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMenu.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsAuthor.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsCopy.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsCover.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsDesc.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsDetail.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsList.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookMsSubject.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookOutstanding.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookPrint.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookStoreDetail.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookStoreList.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmBookStoreMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmCrystalReport.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmCurrencyMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmDDCMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmFormParent.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmIncomeHistory.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalArticles.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalDetail.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalList.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmJournalMasterDetail.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLibrarian.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLocation.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLoginClient.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmLoginServer.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMDI.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMember.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMemberHistory.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmMemberMenu.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmModifyLibrarian.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmModifyMember.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPolicy.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPublisherDetail.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPublisherList.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmPublisherMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearch.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchBook.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchBookMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchBookMiniForm.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchJournal.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchJournalList.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchJournalMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSearchMiniForm.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSetupMenu.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShelfLocationMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShelfMaster.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShowBook.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmShowJournal.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmStatistics.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmSTTB.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmTransactionBorrow.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmTransactionMenu.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmTransactionReturn.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.FrmValidasiKey.resources
+D:\My Data Program2\Sola Scriptura\Sola_Scriptura_Library_DemoVersion - 3.5\Sola_Scriptura_Library_DemoVersion\obj\Release\Sola_Scriptura_Library.csproj.GenerateResource.Cache

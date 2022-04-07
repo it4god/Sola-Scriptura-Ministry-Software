@@ -1,0 +1,37 @@
+Untuk license key, silahkan hubungi Jeffrey Lim
+Langkahnya : 
+Kirimkan validasi keynya ke saya dan saya akan memberikan license keynya....
+
+----------------------------------------------------------------------
+
+Untuk menggunakan Sola Scriptura Library ver 1 maka harus login dengan
+
+Username : limpingen
+Password : 123
+
+Setelah itu bisa membuat account sendiri di admin.
+
+---------------------------------------------------------
+Manual
+---------------------------------------------------------
+
+Untuk diperhatikan !
+Untuk mengisi data buku masuk ke bagian books dan masuk ke bagian Book Detail.
+Add New dan isi data buku kemudian save.
+
+!! Setelah mengisi data buku maka harus mengisi data Book Copy / Book Exemplar
+Kalau tidak maka program tidak dapat menemukan judul bukunya dan juga tidak 
+dapat meminjam bukunya. !!
+
+Penjelasan :
+Setiap judul buku harus ada Book Copynya yang menjelaskan ada berapa copy
+dari buku.
+
+---------------------------------------------------------------------
+
+Terima kasih
+
+Jeffrey Lim, B.Comp ( UTS, Australia )
+Limpingen Soft Comp
+http://limpingen.com
+Email : limpingen@yahoo.com

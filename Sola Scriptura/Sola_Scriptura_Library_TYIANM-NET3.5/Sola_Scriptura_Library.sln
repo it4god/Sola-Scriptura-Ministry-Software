@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sola_Scriptura_Library", "Sola_Scriptura_Library.csproj", "{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "TYIANM Library", "..\TYIANM Library\TYIANM Library.vdproj", "{06CB4E11-0689-44B4-8697-E7742CB89182}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06CB4E11-0689-44B4-8697-E7742CB89182}.Debug|Any CPU.ActiveCfg = Debug
+		{06CB4E11-0689-44B4-8697-E7742CB89182}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

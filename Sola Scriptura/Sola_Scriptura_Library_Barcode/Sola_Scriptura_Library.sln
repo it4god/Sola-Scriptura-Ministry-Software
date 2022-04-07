@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sola_Scriptura_Library", "Sola_Scriptura_Library\Sola_Scriptura_Library.csproj", "{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Sola_Scriptura_Library_System", "Sola_Scriptura_Library_System\Sola_Scriptura_Library_System.vdproj", "{3EACA1B8-7621-4F0E-8FEE-255820EA1389}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}.Debug.ActiveCfg = Debug|.NET
+		{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}.Debug.Build.0 = Debug|.NET
+		{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}.Release.ActiveCfg = Release|.NET
+		{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}.Release.Build.0 = Release|.NET
+		{3EACA1B8-7621-4F0E-8FEE-255820EA1389}.Debug.ActiveCfg = Debug
+		{3EACA1B8-7621-4F0E-8FEE-255820EA1389}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

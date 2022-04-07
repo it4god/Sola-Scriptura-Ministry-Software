@@ -1,0 +1,593 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="3.5" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DDBA6E9A-E5C1-4C71-8550-ED83BF308D77}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>Sola_Scriptura_Library</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sola_Scriptura_Library</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>Sola_Scriptura_Library.FrmLoginServer</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management">
+      <Name>System.Management</Name>
+    </Reference>
+    <Reference Include="System.Web.Services">
+      <Name>System.Web.Services</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <COMReference Include="Shell32">
+      <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App.ico" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClassDatabase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ClassPublicType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CrystalReportBook.cs">
+      <DependentUpon>CrystalReportBook.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="CrystalReportBookPrint.cs">
+      <DependentUpon>CrystalReportBookPrint.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAuthorMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAuthorType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBigMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookCategoryGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookCategoryMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookCategorySubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookCategoryType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookMsAuthor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookMsCopy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookMsCover.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookMsDesc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookMsDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookMsList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookMsSubject.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookOutstanding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookStoreDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookStoreList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBookStoreMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCrystalReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCurrencyMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDDCMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFormParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIncomeHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJournalArticles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJournalDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJournalList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJournalMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmJournalMasterDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoginClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLoginServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemberHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMemberMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModifyLibrarian.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmModifyMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPolicy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPublisherDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPublisherList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPublisherMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchBookMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchBookMiniForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchJournalList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchJournalMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSearchMiniForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSetupMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShelfLocationMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShelfMaster.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShowJournal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStatistics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSTTB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransactionBorrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransactionMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransactionReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmValidasiKey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="CrystalReportBook.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportBook.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReportBookPrint.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReportBookPrint.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdmin.resx">
+      <DependentUpon>FrmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAuthor.resx">
+      <DependentUpon>FrmAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAuthorMaster.resx">
+      <DependentUpon>FrmAuthorMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAuthorType.resx">
+      <DependentUpon>FrmAuthorType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBigMenu.resx">
+      <DependentUpon>FrmBigMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookCategoryGroup.resx">
+      <DependentUpon>FrmBookCategoryGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookCategoryMaster.resx">
+      <DependentUpon>FrmBookCategoryMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookCategorySubject.resx">
+      <DependentUpon>FrmBookCategorySubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookCategoryType.resx">
+      <DependentUpon>FrmBookCategoryType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookHistory.resx">
+      <DependentUpon>FrmBookHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookMaster.resx">
+      <DependentUpon>FrmBookMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookMenu.resx">
+      <DependentUpon>FrmBookMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookMsAuthor.resx">
+      <DependentUpon>FrmBookMsAuthor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookMsCopy.resx">
+      <DependentUpon>FrmBookMsCopy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookMsCover.resx">
+      <DependentUpon>FrmBookMsCover.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookMsDesc.resx">
+      <DependentUpon>FrmBookMsDesc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookMsDetail.resx">
+      <DependentUpon>FrmBookMsDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookMsList.resx">
+      <DependentUpon>FrmBookMsList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookMsSubject.resx">
+      <DependentUpon>FrmBookMsSubject.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookOutstanding.resx">
+      <DependentUpon>FrmBookOutstanding.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookPrint.resx">
+      <DependentUpon>FrmBookPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookStoreDetail.resx">
+      <DependentUpon>FrmBookStoreDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookStoreList.resx">
+      <DependentUpon>FrmBookStoreList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBookStoreMaster.resx">
+      <DependentUpon>FrmBookStoreMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCrystalReport.resx">
+      <DependentUpon>FrmCrystalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCurrencyMaster.resx">
+      <DependentUpon>FrmCurrencyMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDDCMaster.resx">
+      <DependentUpon>FrmDDCMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFormParent.resx">
+      <DependentUpon>FrmFormParent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIncomeHistory.resx">
+      <DependentUpon>FrmIncomeHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJournalArticles.resx">
+      <DependentUpon>FrmJournalArticles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJournalDetail.resx">
+      <DependentUpon>FrmJournalDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJournalList.resx">
+      <DependentUpon>FrmJournalList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJournalMaster.resx">
+      <DependentUpon>FrmJournalMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmJournalMasterDetail.resx">
+      <DependentUpon>FrmJournalMasterDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLibrarian.resx">
+      <DependentUpon>FrmLibrarian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLocation.resx">
+      <DependentUpon>FrmLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoginClient.resx">
+      <DependentUpon>FrmLoginClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLoginServer.resx">
+      <DependentUpon>FrmLoginServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMDI.resx">
+      <DependentUpon>FrmMDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMember.resx">
+      <DependentUpon>FrmMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemberHistory.resx">
+      <DependentUpon>FrmMemberHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMemberMenu.resx">
+      <DependentUpon>FrmMemberMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModifyLibrarian.resx">
+      <DependentUpon>FrmModifyLibrarian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmModifyMember.resx">
+      <DependentUpon>FrmModifyMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPolicy.resx">
+      <DependentUpon>FrmPolicy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPublisherDetail.resx">
+      <DependentUpon>FrmPublisherDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPublisherList.resx">
+      <DependentUpon>FrmPublisherList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPublisherMaster.resx">
+      <DependentUpon>FrmPublisherMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearch.resx">
+      <DependentUpon>FrmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchBook.resx">
+      <DependentUpon>FrmSearchBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchBookMaster.resx">
+      <DependentUpon>FrmSearchBookMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchBookMiniForm.resx">
+      <DependentUpon>FrmSearchBookMiniForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchJournal.resx">
+      <DependentUpon>FrmSearchJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchJournalList.resx">
+      <DependentUpon>FrmSearchJournalList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchJournalMaster.resx">
+      <DependentUpon>FrmSearchJournalMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSearchMiniForm.resx">
+      <DependentUpon>FrmSearchMiniForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSetupMenu.resx">
+      <DependentUpon>FrmSetupMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShelfLocationMaster.resx">
+      <DependentUpon>FrmShelfLocationMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShelfMaster.resx">
+      <DependentUpon>FrmShelfMaster.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowBook.resx">
+      <DependentUpon>FrmShowBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShowJournal.resx">
+      <DependentUpon>FrmShowJournal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStatistics.resx">
+      <DependentUpon>FrmStatistics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSTTB.resx">
+      <DependentUpon>FrmSTTB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransactionBorrow.resx">
+      <DependentUpon>FrmTransactionBorrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransactionMenu.resx">
+      <DependentUpon>FrmTransactionMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransactionReturn.resx">
+      <DependentUpon>FrmTransactionReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmValidasiKey.resx">
+      <DependentUpon>FrmValidasiKey.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,141 @@
+[Root]
+Most Recent Package=Academic2009
+
+
+[Package|Academic2009|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\Academic2009
+
+[Package|Academic2009|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Academic2009|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Academic2009|Files Found]
+
+[Package|Academic2009|Files Released]
+
+[Package|Academic2009|Missing Dependency Information]
+D:\Academic\MSDXM.OCX=
+E:\WINDOWS\system32\msstdfmt.dll=
+E:\Program Files\Common Files\System\ado\msado25.tlb=
+E:\WINDOWS\system32\MSDXM.OCX=
+
+[Package|Academic2009|Out-of-Date Dependency Information]
+
+[Package|Academic2009|Files Added]
+d:\academic\about.mp3=
+d:\academic\admin.mp3=
+d:\academic\album.mp3=
+d:\academic\member.mp3=
+d:\academic\search.mp3=
+d:\academic\spring.mp3=
+d:\academic\website.mp3=
+d:\academic\winter.mp3=
+D:\Academic\AcademicDb.mdb=
+
+[Package|Academic2009|Files Removed]
+
+[Package|Academic2009|Files In Project]
+D:\Academic\Academic2009.exe=Yes
+E:\WINDOWS\system32\msvbvm60.dll=Yes
+E:\WINDOWS\system32\oleaut32.dll=Yes
+E:\WINDOWS\system32\olepro32.dll=Yes
+E:\WINDOWS\system32\asycfilt.dll=Yes
+E:\WINDOWS\system32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+E:\WINDOWS\system32\MSDATGRD.OCX=Yes
+E:\WINDOWS\system32\msstdfmt.dll=Yes
+E:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+E:\WINDOWS\system32\comdlg32.ocx=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\Academic\About.mp3=Yes
+D:\Academic\admin.mp3=Yes
+D:\Academic\Album.mp3=Yes
+D:\Academic\Member.mp3=Yes
+D:\Academic\search.mp3=Yes
+D:\Academic\spring.mp3=Yes
+D:\Academic\Website.mp3=Yes
+D:\Academic\winter.mp3=Yes
+E:\WINDOWS\system32\MSDXM.OCX=Yes
+D:\Academic\AcademicDb.mdb=Yes
+
+[Package|Academic2009|Configure Registry Files]
+Applicable=No
+
+[Package|Academic2009|Configure Remote Servers]
+Applicable=No
+
+[Package|Academic2009|Install Locations]
+D:\Academic\Academic2009.exe=$(AppPath)
+E:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+E:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+E:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+E:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+E:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+D:\Academic\MSDXM.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+D:\Academic\About.mp3=$(AppPath)
+D:\Academic\admin.mp3=$(AppPath)
+D:\Academic\Album.mp3=$(AppPath)
+D:\Academic\Member.mp3=$(AppPath)
+D:\Academic\search.mp3=$(AppPath)
+D:\Academic\spring.mp3=$(AppPath)
+D:\Academic\Website.mp3=$(AppPath)
+D:\Academic\winter.mp3=$(AppPath)
+E:\WINDOWS\system32\MSDXM.OCX=$(WinSysPath)
+D:\Academic\AcademicDb.mdb=$(AppPath)
+
+[Package|Academic2009|Configure Shared Files]
+Applicable=Yes
+D:\Academic\Academic2009.exe=Yes
+D:\Academic\About.mp3=Yes
+D:\Academic\admin.mp3=Yes
+D:\Academic\Album.mp3=Yes
+D:\Academic\Member.mp3=Yes
+D:\Academic\search.mp3=Yes
+D:\Academic\spring.mp3=Yes
+D:\Academic\Website.mp3=Yes
+D:\Academic\winter.mp3=Yes
+D:\Academic\AcademicDb.mdb=Yes
+
+[Package|Academic2009|Distribution]
+Type=single
+Size=
+Title=Sola Scriptura Academic - Charity Edition Version 1.0
+
+[Package|Academic2009|IconGroups]
+Group0=Sola Scriptura Academic - Charity Edition Version 1.0
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Academic2009|Sola Scriptura Academic - Charity Edition Version 1.0]
+Icon1=Academic2009.exe
+Title1=Academic2009
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Academic2009|Package]
+PackageFolder=D:\Academic2009
+ProjectFolder=D:\Academic
+ServerSideCab=
+File1=D:\Academic2009\setup.exe
+File2=D:\Academic2009\Setup.Lst
+File3=D:\Academic2009\Academic2009.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

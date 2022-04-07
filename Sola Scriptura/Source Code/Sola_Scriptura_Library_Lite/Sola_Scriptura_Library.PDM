@@ -1,0 +1,174 @@
+[Root]
+Most Recent Package=SolaScripturaLibraryLite
+
+
+[Package|SolaScripturaLibraryLite|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\SolaScripturaLibraryLite
+
+[Package|SolaScripturaLibraryLite|Configure DAO ISAMs]
+Applicable=No
+
+[Package|SolaScripturaLibraryLite|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|SolaScripturaLibraryLite|Files Found]
+
+[Package|SolaScripturaLibraryLite|Files Released]
+
+[Package|SolaScripturaLibraryLite|Missing Dependency Information]
+D:\My Personal\My Programs\Sola_Scriptura_Library_Lite\GOCONN.OCX=
+C:\WINDOWS\system32\msstdfmt.dll=
+C:\Program Files\Common Files\System\ado\msado25.tlb=
+C:\Sola_Scriptura_Library_Lite\GOCONN.OCX=
+C:\WINDOWS\system32\GOCONN.OCX=
+D:\My Data - Info - Works\Sola_Scriptura\Sola_Scriptura_Library_Lite\GOCONN.OCX=
+E:\WINDOWS\system32\msstdfmt.dll=
+E:\Program Files\Common Files\System\ado\msado25.tlb=
+E:\WINDOWS\system32\GOCONN.OCX=
+
+[Package|SolaScripturaLibraryLite|Out-of-Date Dependency Information]
+D:\My Personal\My Programs\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=
+C:\WINDOWS\system32\mschrt20.ocx=
+C:\WINDOWS\system32\COMCT332.OCX=
+C:\WINDOWS\system32\MSCOMCTL.OCX=
+C:\WINDOWS\system32\MSADODC.OCX=
+C:\WINDOWS\system32\MSDATGRD.OCX=
+C:\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=
+D:\My Data - Info - Works\Sola_Scriptura\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=
+E:\WINDOWS\system32\mschrt20.ocx=
+E:\WINDOWS\system32\COMCT332.OCX=
+E:\WINDOWS\system32\MSCOMCTL.OCX=
+
+[Package|SolaScripturaLibraryLite|Files Added]
+c:\sola_scriptura_library_lite\webcatalogue.mdb=
+C:\Sola_Scriptura_Library_Lite\DETAIL.MDB=
+C:\Sola_Scriptura_Library_Lite\DB1.MDB=
+
+[Package|SolaScripturaLibraryLite|Files Removed]
+
+[Package|SolaScripturaLibraryLite|Files In Project]
+C:\Sola_Scriptura_Library_Lite\Sola_Scriptura_Library.exe=Yes
+C:\Sola_Scriptura_Library_Lite\WEBCATALOGUE.mdb=Yes
+E:\WINDOWS\system32\msvbvm60.dll=Yes
+E:\WINDOWS\system32\oleaut32.dll=Yes
+E:\WINDOWS\system32\olepro32.dll=Yes
+E:\WINDOWS\system32\asycfilt.dll=Yes
+E:\WINDOWS\system32\stdole2.tlb=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+E:\Program Files\Common Files\System\ado\msado25.tlb=Yes
+E:\WINDOWS\system32\MSDATGRD.OCX=Yes
+E:\WINDOWS\system32\msstdfmt.dll=Yes
+E:\WINDOWS\system32\MSADODC.OCX=Yes
+E:\WINDOWS\system32\MSCOMCTL.OCX=Yes
+E:\WINDOWS\system32\MSMAPI32.OCX=Yes
+E:\WINDOWS\system32\COMCT332.OCX=Yes
+E:\WINDOWS\system32\mschrt20.ocx=Yes
+E:\WINDOWS\system32\MSBIND.DLL=Yes
+E:\WINDOWS\system32\TABCTL32.OCX=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=Yes
+E:\WINDOWS\system32\GOCONN.OCX=Yes
+C:\Sola_Scriptura_Library_Lite\DETAIL.MDB=Yes
+C:\Sola_Scriptura_Library_Lite\DB1.MDB=Yes
+
+[Package|SolaScripturaLibraryLite|Configure Registry Files]
+Applicable=No
+
+[Package|SolaScripturaLibraryLite|Configure Remote Servers]
+Applicable=No
+
+[Package|SolaScripturaLibraryLite|Install Locations]
+C:\Sola_Scriptura_Library_Lite\Sola_Scriptura_Library.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+C:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mschrt20.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+D:\My Personal\My Programs\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=$(AppPath)
+D:\My Personal\My Programs\Sola_Scriptura_Library_Lite\GOCONN.OCX=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+D:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Sola_Scriptura_Library_Lite\WEBCATALOGUE.mdb=$(AppPath)
+C:\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=$(AppPath)
+C:\Sola_Scriptura_Library_Lite\GOCONN.OCX=$(WinSysPath)
+C:\WINDOWS\system32\GOCONN.OCX=$(WinSysPath)
+E:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Common Files\System\ado\msado25.tlb=$(WinSysPath)
+E:\WINDOWS\system32\MSDATGRD.OCX=$(WinSysPath)
+E:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+E:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+E:\WINDOWS\system32\MSCOMCTL.OCX=$(WinSysPath)
+E:\WINDOWS\system32\MSMAPI32.OCX=$(WinSysPath)
+E:\WINDOWS\system32\COMCT332.OCX=$(WinSysPath)
+E:\WINDOWS\system32\mschrt20.ocx=$(WinSysPath)
+E:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+E:\WINDOWS\system32\TABCTL32.OCX=$(WinSysPath)
+D:\My Data - Info - Works\Sola_Scriptura\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=$(AppPath)
+D:\My Data - Info - Works\Sola_Scriptura\Sola_Scriptura_Library_Lite\GOCONN.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\WINDOWS\system32\GOCONN.OCX=$(WinSysPath)
+C:\Sola_Scriptura_Library_Lite\DETAIL.MDB=$(AppPath)
+C:\Sola_Scriptura_Library_Lite\DB1.MDB=$(AppPath)
+
+[Package|SolaScripturaLibraryLite|Configure Shared Files]
+Applicable=Yes
+C:\Sola_Scriptura_Library_Lite\Sola_Scriptura_Library.exe=Yes
+D:\My Personal\My Programs\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=Yes
+D:\My Personal\My Programs\Sola_Scriptura_Library_Lite\GOCONN.OCX=Yes
+C:\Sola_Scriptura_Library_Lite\WEBCATALOGUE.mdb=Yes
+C:\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=Yes
+D:\My Data - Info - Works\Sola_Scriptura\Sola_Scriptura_Library_Lite\SWBGRADIENT.OCX=Yes
+C:\Sola_Scriptura_Library_Lite\DETAIL.MDB=Yes
+C:\Sola_Scriptura_Library_Lite\DB1.MDB=Yes
+
+[Package|SolaScripturaLibraryLite|Distribution]
+Type=single
+Size=1.44 MB
+Title=Sola_Scriptura_Library_Lite
+
+[Package|SolaScripturaLibraryLite|Package]
+PackageFolder=C:\SolaScripturaLibraryLite
+ProjectFolder=C:\Sola_Scriptura_Library_Lite
+ServerSideCab=
+File1=C:\SolaScripturaLibraryLite\setup.exe
+File2=C:\SolaScripturaLibraryLite\Setup.Lst
+File3=C:\SolaScripturaLibraryLite\Sola_Scriptura_Library.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|SolaScripturaLibraryLite|IconGroups]
+Group0=Sola_Scriptura_Library_Lite
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|SolaScripturaLibraryLite|Sola_Scriptura_Library_Lite]
+Icon1=Sola_Scriptura_Library.exe
+Title1=Sola_Scriptura_Library_Lite
+StartIn1=c:\sola_scriptura_library_lite
+Key1=Icon1

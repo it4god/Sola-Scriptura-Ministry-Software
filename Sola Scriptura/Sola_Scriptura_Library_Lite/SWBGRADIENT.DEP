@@ -1,0 +1,16 @@
+[Version]
+Version=1.0.0.3
+
+[SWBGradient.ocx <0009>]
+Dest=$(AppPath)
+Date=2/22/99
+Time=15:43
+Version=1.0.0.3
+CABFilename=SWBGradient.CAB
+CABINFFile=SWBGradient.INF
+Uses1=MSVBVM60.DLL
+Uses2=OLEAUT32.DLL
+Uses3=OLEPRO32.DLL
+Uses4=ASYCFILT.DLL
+Uses5=STDOLE2.TLB
+Uses6=COMCAT.DLL

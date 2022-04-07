@@ -1,0 +1,542 @@
+using System;
+using System.Data;
+using System.Drawing;
+using System.Data.OleDb;
+using System.Windows.Forms;
+using System.IO;
+using Microsoft.Win32;
+namespace Sola_Scriptura_ChurchMembership
+{
+	/// <summary>
+	/// Summary description for ClassDatabase.
+	/// </summary>
+	public class ClassDatabase
+	{
+		public OleDbConnection MyConnection;
+		public OleDbDataAdapter MyDataAdapter;
+		public DataTable MyDataTable;
+		public OleDbCommand MyOleDbCommand;
+		public OleDbDataReader MyDataReader;
+		public DataRow MyDataRow;
+		public OleDbCommandBuilder MySCB;
+		public string strOleDb;
+		public string MyException;
+		public RegistryKey ServerName;
+		public string MyServerName;
+		public ClassDatabase()
+		{
+			MyConnection = new OleDbConnection();
+			MyConnection.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=ChurchMembership.mdb";
+           
+
+		}
+		public ClassDatabase(string ComputerName)
+		{
+	
+			MyConnection = new OleDbConnection();
+			MyConnection.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=ChurchMembership.mdb";
+	
+		}
+
+		public string LoginNow(string UserName, string UserPassword)
+		{
+
+			try
+			{
+				MyConnection.Open();
+				strOleDb = "SELECT * From Admin WHERE UserName = '" + (UserName.Trim()) + "' and UserPassword = '" + (UserPassword.Trim()) + "' ";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyDataReader = MyOleDbCommand.ExecuteReader ();
+				if (MyDataReader.HasRows == true)
+				{
+					MyDataReader.Read();
+					return MyDataReader.GetString(4);
+				}
+				else
+				{
+					return "False";
+				}
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+				return "False";
+			}
+		}
+		public string GetMaxLoginID()
+		{
+		
+			MyConnection.Open();
+			strOleDb = "SELECT COUNT(AdminID) From Admin";
+			MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+			MyDataReader = MyOleDbCommand.ExecuteReader ();
+			MyDataReader.Read();
+			if(MyDataReader.GetInt32(0) >0)
+			{
+				MyConnection.Close();
+				MyConnection.Open();
+				strOleDb = "SELECT MAX(AdminID) From Admin";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyDataReader = MyOleDbCommand.ExecuteReader ();
+				MyDataReader.Read();
+				return MyDataReader.GetString(0);
+			}
+			else
+			{
+				return "M000000000";
+			}
+		}
+		public string GetMaxAdminID()
+		{
+		
+			MyConnection.Open();
+			strOleDb = "SELECT COUNT(AdminID) From Admin";
+			MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+			MyDataReader = MyOleDbCommand.ExecuteReader ();
+			MyDataReader.Read();
+			if(MyDataReader.GetInt32(0) >0)
+			{
+				MyConnection.Close();
+				MyConnection.Open();
+				strOleDb = "SELECT MAX(AdminID) From Admin";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyDataReader = MyOleDbCommand.ExecuteReader ();
+				MyDataReader.Read();
+				return MyDataReader.GetString(0);
+			}
+			else
+			{
+				return "M000000000";
+			}
+		}
+		public void SaveAdmin(Administrator MyAdmin)
+		{
+			try
+			{
+				MyConnection.Open();
+				strOleDb = "SELECT * From Admin WHERE AdminID = '" + (MyAdmin.AdminID.ToString()) + "' ";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyDataReader = MyOleDbCommand.ExecuteReader ();
+				bool HasRow;
+				if (MyDataReader.HasRows == true)
+				{
+					HasRow = true;
+					MyConnection.Close();
+					strOleDb = "SELECT * From Admin WHERE AdminID = '" + (MyAdmin.AdminID.ToString()) + "' ";
+					MyDataAdapter = new OleDbDataAdapter(strOleDb, MyConnection);
+					MySCB = new OleDbCommandBuilder(MyDataAdapter);
+					MyDataTable = new DataTable();
+					MyDataAdapter.InsertCommand = MySCB.GetInsertCommand();
+					MyDataAdapter.UpdateCommand = MySCB.GetUpdateCommand();
+					MyDataAdapter.Fill(MyDataTable);
+					MyDataRow = MyDataTable.Rows[0];
+				}
+				else
+				{
+					HasRow = false;
+					MyConnection.Close();
+					strOleDb = "SELECT * From Admin WHERE AdminID = '-1'";
+					MyDataAdapter = new OleDbDataAdapter(strOleDb,MyConnection);
+					MySCB = new OleDbCommandBuilder(MyDataAdapter);
+					MyDataTable = new DataTable();
+					MyDataAdapter.InsertCommand = MySCB.GetInsertCommand();
+					MyDataAdapter.UpdateCommand = MySCB.GetUpdateCommand();
+					MyDataAdapter.Fill(MyDataTable);
+					MyDataRow = MyDataTable.NewRow();
+					MyDataRow["AdminID"] = MyAdmin.AdminID.ToString();
+				}
+				MyDataRow["UserName"] = MyAdmin.UserName.ToString();
+				MyDataRow["UserPassword"] = MyAdmin.UserPassword.ToString();
+				MyDataRow["AdminName"] = MyAdmin.AdminName.ToString();
+				MyDataRow["AdminGroup"] = MyAdmin.AdminGroup.ToString();
+				MyDataRow["ActiveDate"] = DateTime.Now;
+				MyDataRow["Address"] = MyAdmin.Address.ToString();
+				MyDataRow["City"] = MyAdmin.City.ToString();
+				MyDataRow["PostCode"] = MyAdmin.PostCode.ToString();
+				MyDataRow["State"] = MyAdmin.State.ToString();
+				MyDataRow["Country"] = MyAdmin.Country.ToString();
+				MyDataRow["Phone"] = MyAdmin.Phone.ToString();
+				MyDataRow["HandPhone"] = MyAdmin.HandPhone.ToString();
+				MyDataRow["Email"] = MyAdmin.Email.ToString();
+				MyDataRow["LocationCode"] = MyAdmin.LocationCode.ToString();
+				MyDataRow["UpdateUser"] = MyAdmin.UpdateUser.ToString();
+				MyDataRow["UpdateDate"] = DateTime.Now;
+				if(HasRow == false)
+					MyDataTable.Rows.Add (MyDataRow);
+				int a = MyDataAdapter.Update(MyDataTable);
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+			}
+		}
+		
+		public DataTable GetAdmin(Administrator MyAdmin)
+		{
+			try
+			{
+				strOleDb = "SELECT AdminID, UserName, UserPassword, AdminName, AdminGroup, ActiveDate, Address, City, PostCode, State, Country, Phone, HandPhone, Email, LocationCode, UpdateUser, UpdateDate From Admin WHERE AdminID <> '-1' ";		
+				if(MyAdmin.AdminID.ToString()!="")
+					strOleDb += " and AdminID LIKE '%" + MyAdmin.AdminID.ToString() + "%' ";
+				if(MyAdmin.UserName.ToString()!="")
+					strOleDb += " and UserName LIKE '%" + MyAdmin.UserName.ToString() + "%' ";
+				if(MyAdmin.AdminName.ToString()!="")
+					strOleDb += " and AdminName LIKE '%" + MyAdmin.AdminName.ToString() + "%' ";
+				if(MyAdmin.AdminGroup.ToString()!="All")
+					strOleDb += " and AdminGroup LIKE '%" + MyAdmin.AdminGroup.ToString() + "%' ";
+				strOleDb += " ORDER BY AdminID";
+				MyDataAdapter = new OleDbDataAdapter(strOleDb,MyConnection);
+				MyDataTable = new DataTable("Admin");
+				MyDataAdapter.Fill(MyDataTable);
+				return MyDataTable;
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+				return MyDataTable;
+			}
+
+		}
+		
+		public void DeleteAdmin(string AdminID)
+		{
+			try
+			{
+				MyConnection.Open();
+				strOleDb = "DELETE From Admin WHERE AdminID = '" + AdminID + "' ";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyOleDbCommand.ExecuteNonQuery();
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show("Cannot Delete Data. Data already used !","Information");
+				MyException = eee.Message;
+			}
+		}
+		public string GetMaxMemberID()
+			  {
+		
+				  MyConnection.Open();
+				  strOleDb = "SELECT COUNT(MemberID) From Member";
+				  MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				  MyDataReader = MyOleDbCommand.ExecuteReader ();
+				  MyDataReader.Read();
+				  if(MyDataReader.GetInt32(0) >0)
+				  {
+					  MyConnection.Close();
+					  MyConnection.Open();
+					  strOleDb = "SELECT MAX(MemberID) From Member";
+					  MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+					  MyDataReader = MyOleDbCommand.ExecuteReader ();
+					  MyDataReader.Read();
+					  return MyDataReader.GetString(0);
+				  }
+				  else
+				  {
+					  return "M000000000";
+				  }
+			  }
+		public void SaveMember(Member MyMember)
+		{
+			try
+			{
+				MyConnection.Open();
+				strOleDb = "SELECT * From Member WHERE MemberID = '" + (MyMember.MemberID.ToString()) + "' ";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyDataReader = MyOleDbCommand.ExecuteReader ();
+				bool HasRow;
+				if (MyDataReader.HasRows == true)
+				{
+					HasRow = true;
+					MyConnection.Close();
+					strOleDb = "SELECT * From Member WHERE MemberID = '" + (MyMember.MemberID.ToString()) + "' ";
+					MyDataAdapter = new OleDbDataAdapter(strOleDb, MyConnection);
+					MySCB = new OleDbCommandBuilder(MyDataAdapter);
+					MyDataTable = new DataTable();
+					MyDataAdapter.InsertCommand = MySCB.GetInsertCommand();
+					MyDataAdapter.Fill(MyDataTable);
+					MyDataRow = MyDataTable.Rows[0];
+				}
+				else
+				{
+					HasRow = false;
+					MyConnection.Close();
+					strOleDb = "SELECT * From Member WHERE MemberID = '-1'";
+					MyDataAdapter = new OleDbDataAdapter(strOleDb,MyConnection);
+					MySCB = new OleDbCommandBuilder(MyDataAdapter);
+					MyDataTable = new DataTable();
+					MyDataAdapter.InsertCommand = MySCB.GetInsertCommand();
+					MyDataAdapter.Fill(MyDataTable);
+					MyDataRow = MyDataTable.NewRow();
+					MyDataRow["MemberID"] = MyMember.MemberID.ToString();
+				}
+				MyDataRow["MemberName"] = MyMember.MemberName.ToString();
+
+				MyDataRow["PlaceDateBirth"] = MyMember.PlaceDateBirthDate.ToString();
+				MyDataRow["Address"] = MyMember.Address.ToString();
+				MyDataRow["City"] = MyMember.City.ToString();
+				MyDataRow["PostCode"] = MyMember.PostCode.ToString();
+				MyDataRow["State"] = MyMember.State.ToString();
+				MyDataRow["Country"] = MyMember.Country.ToString();
+				MyDataRow["Phone"] = MyMember.Phone.ToString();
+				MyDataRow["HandPhone"] = MyMember.HandPhone.ToString();
+				MyDataRow["Email"] = MyMember.Email.ToString();
+				MyDataRow["IsBaptised"] = MyMember.Isbaptised.ToString();
+				MyDataRow["Status"] = MyMember.Status.ToString();
+				MyDataRow["Remark"] = MyMember.Remark.ToString();
+				MyDataRow["Ministry"] = MyMember.Ministry.ToString();
+				MyDataRow["UpdateUser"] = MyMember.UpdateUser.ToString();
+				MyDataRow["UpdateDate"] = DateTime.Now;
+				if(HasRow == false)
+					MyDataTable.Rows.Add (MyDataRow);
+				MyDataAdapter.Update(MyDataTable);
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+			}
+		}
+		public DataTable GetMember(Member MyMember)
+		{
+			try
+			{
+				strOleDb = "SELECT * From Member WHERE MemberID <> '-1' ";
+				if(MyMember.MemberID.ToString()!="")
+					strOleDb += " and MemberID LIKE '%" + MyMember.MemberID.ToString() + "%' ";
+				if(MyMember.MemberName.ToString()!="")
+				{
+					int myindex = 0;
+					int previousindex = 0;
+					string MyCriteria = MyMember.MemberName.ToString();
+					string mysubstring = MyMember.MemberName.ToString();
+
+					while (myindex>=0)
+					{
+						myindex = MyCriteria.IndexOf(" ",myindex+1);
+
+						if(myindex != -1)
+						{
+							mysubstring = MyCriteria.Substring(previousindex,myindex-previousindex);
+						}
+						else
+						{
+							mysubstring = MyCriteria.Substring(previousindex);
+						}
+				
+						if(mysubstring.ToString().Trim()!="")
+						{
+							strOleDb += " and MemberName LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or PlaceDateBirth LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or Address LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or City LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or PostCode LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or State LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or Country LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or Phone LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or HandPhone LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or InChurch LIKE  '%" + mysubstring + "%' ";
+							strOleDb += " or Email LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or Status LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or Remark LIKE '%" + mysubstring + "%' ";
+							strOleDb += " or Ministry LIKE '%" + mysubstring + "%' ";	
+							previousindex = myindex + 1;
+						} 
+					}
+					
+					
+				
+				}
+				strOleDb += " ORDER BY MemberID";
+				MyDataAdapter = new OleDbDataAdapter(strOleDb,MyConnection);
+				MyDataTable = new DataTable("Member");
+				MyDataAdapter.Fill(MyDataTable);
+				return MyDataTable;
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+				return MyDataTable;
+			}
+
+		}
+		public void DeleteMember(string MemberID)
+		{
+			try
+			{
+				MyConnection.Open();
+				strOleDb = "DELETE From Member WHERE MemberID = '" + MemberID + "' ";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyOleDbCommand.ExecuteNonQuery();
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show("Cannot Delete Data. Data already used !","Information");
+				MyException = eee.Message;
+			}
+		}
+
+		public void AddTransaction(string MyDate, string MemberID, string UpdateUser)
+		{
+			try
+			{
+			
+				
+			
+					MyConnection.Close();
+					strOleDb = "SELECT * From TheTransaction WHERE PrimaryKey = '-1'";
+					MyDataAdapter = new OleDbDataAdapter(strOleDb,MyConnection);
+					MySCB = new OleDbCommandBuilder(MyDataAdapter);
+					MyDataTable = new DataTable();
+					MyDataAdapter.InsertCommand = MySCB.GetInsertCommand();
+					MyDataAdapter.UpdateCommand = MySCB.GetUpdateCommand();
+					MyDataAdapter.Fill(MyDataTable);
+					MyDataRow = MyDataTable.NewRow();
+					MyDataRow["MyDate"] = MyDate.ToString();
+				
+				MyDataRow["MemberID"] = MemberID.ToString();
+				MyDataRow["UpdateUser"] = UpdateUser.ToString();
+				MyDataRow["UpdateDate"] = DateTime.Now;
+					MyDataTable.Rows.Add (MyDataRow);
+				int a = MyDataAdapter.Update(MyDataTable);
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+			}
+		}
+
+		public DataTable getTransaction(string MyDate)
+		{
+			try
+			{
+
+				strOleDb = "SELECT Member.MemberID, MemberName, MyDate From Member INNER JOIN TheTransaction ON Member.MemberID = TheTransaction.MemberID WHERE MyDate = '" + MyDate.ToString() + "' ORDER BY 1";
+				MyDataAdapter = new OleDbDataAdapter(strOleDb,MyConnection);
+				MyDataTable = new DataTable("Member");
+				MyDataAdapter.Fill(MyDataTable);
+				return MyDataTable;
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+				return MyDataTable;
+			}
+		}
+		public void DeleteTransaction(string MemberID, string MyDate)
+		{
+			try
+			{
+				MyConnection.Open();
+				strOleDb = "DELETE From TheTransaction WHERE MemberID = '" + MemberID + "' and MyDate = '" + MyDate + "' ";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyOleDbCommand.ExecuteNonQuery();
+			}
+			catch(Exception eee)
+			{
+				
+				MessageBox.Show("Cannot Delete Data. Data already used !","Information");
+				MyException = eee.Message;
+			}
+		}
+		public DataTable GetAttandance(string MyDate)
+		{
+			try
+			{
+				strOleDb = "SELECT DISTINCT MemberName From Member INNER JOIN TheTransaction ON Member.MemberID = TheTransaction.MemberID WHERE theTransaction.MyDate = '" + MyDate + "' ORDER BY 1";
+				MyDataAdapter = new OleDbDataAdapter(strOleDb,MyConnection);
+				MyDataTable = new DataTable("Member");
+				MyDataAdapter.Fill(MyDataTable);
+				return MyDataTable;
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+				return MyDataTable;
+			}
+
+		}
+		public DataTable GetAbsence(string MyDate)
+		{
+			try
+			{
+				strOleDb = "SELECT DISTINCT MemberName From Member WHERE MemberID NOT IN (SELECT MemberID From TheTransaction WHERE theTransaction.MyDate = '" + MyDate + "' ) ORDER BY 1";
+				MyDataAdapter = new OleDbDataAdapter(strOleDb,MyConnection);
+				MyDataTable = new DataTable("Member");
+				MyDataAdapter.Fill(MyDataTable);
+				return MyDataTable;
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+				return MyDataTable;
+			}
+
+		}
+		public string GetAttendanceCount(string MyDate)
+		{
+		
+			MyConnection.Close();
+			MyConnection.Open();
+			strOleDb = "SELECT COUNT (MemberName) From Member INNER JOIN TheTransaction ON Member.MemberID = TheTransaction.MemberID WHERE theTransaction.MyDate = '" + MyDate + "' ORDER BY 1";
+			MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+			MyDataReader = MyOleDbCommand.ExecuteReader ();
+			MyDataReader.Read();
+			if(MyDataReader.GetInt32(0) >0)
+			{
+				MyConnection.Close();
+				MyConnection.Open();
+				strOleDb = "SELECT COUNT (MemberName) From Member INNER JOIN TheTransaction ON Member.MemberID = TheTransaction.MemberID WHERE theTransaction.MyDate = '" + MyDate + "' ORDER BY 1";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyDataReader = MyOleDbCommand.ExecuteReader ();
+				MyDataReader.Read();
+				return MyDataReader.GetInt32(0).ToString();
+			}
+			else
+			{
+				return "0";
+			}
+		}
+		public string GetAbsenceCount(string MyDate)
+		{
+		
+			MyConnection.Close();
+			MyConnection.Open();
+			strOleDb = "SELECT COUNT (MemberName) From Member WHERE MemberID NOT IN (SELECT MemberID From TheTransaction WHERE theTransaction.MyDate = '" + MyDate + "' ) ORDER BY 1";
+			MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+			MyDataReader = MyOleDbCommand.ExecuteReader ();
+			MyDataReader.Read();
+			if(MyDataReader.GetInt32(0) >0)
+			{
+				MyConnection.Close();
+				MyConnection.Open();
+				strOleDb = "SELECT COUNT (MemberName) From Member WHERE MemberID NOT IN (SELECT MemberID From TheTransaction WHERE theTransaction.MyDate = '" + MyDate + "' ) ORDER BY 1";
+				MyOleDbCommand = new OleDbCommand(strOleDb, MyConnection);
+				MyDataReader = MyOleDbCommand.ExecuteReader ();
+				MyDataReader.Read();
+				return MyDataReader.GetInt32(0).ToString();
+			}
+			else
+			{
+				return "0";
+			}
+		}
+		public DataTable GetChart(string MyDate, string MyDate2)
+		{
+			try
+			{
+				strOleDb = "SELECT  MyDate, MemberID AS Total From theTransaction WHERE MyDate >= '" + MyDate + "' and MyDate <= '" + MyDate2 + "' ";
+				MyDataAdapter = new OleDbDataAdapter(strOleDb,MyConnection);
+				MyDataTable = new DataTable("Chart");
+				MyDataAdapter.Fill(MyDataTable);
+				return MyDataTable;
+			}
+			catch(Exception eee)
+			{
+				MessageBox.Show(eee.Message);
+				return MyDataTable;
+			}
+
+		}
+	}
+
+}
